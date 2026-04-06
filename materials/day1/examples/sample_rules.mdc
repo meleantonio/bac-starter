@@ -1,0 +1,40 @@
+---
+description: Python and LaTeX conventions for economics research projects
+globs: ["**/*.py", "**/*.tex", "**/*.bib", "**/scripts/**"]
+alwaysApply: false
+---
+
+# Economics Project Rules
+
+## Python Style
+
+- Follow PEP 8; max line length 120 characters.
+- Use type hints on all public functions and method signatures.
+- Google-style docstrings: Summary, Args, Returns, Raises as needed.
+- Format with Ruff; avoid inline comments for obvious code.
+- Prefer `pandas` for tabular data; `numpy` for arrays.
+- Log data loading and transformations with `logging` or `structlog`.
+
+## LaTeX Conventions
+
+- Citations: `natbib` with `\cite{}`, `\citet{}` (narrative), `\citep{}` (parenthetical).
+- Tables: `booktabs` (`\toprule`, `\midrule`, `\bottomrule`); `siunitx` for numbers.
+- Figures: `\caption{}` below figure; tables: `\caption{}` above.
+- Labels: descriptive (`fig:gdp_series`, `tab:regression_main`).
+- Place figures in `figures/`, tables in `tables/`.
+- Cite working papers as "Author (Year), working paper."
+
+## Data Handling
+
+- Document all data sources in `docs/data_source_map.md`.
+- No hardcoded file paths; use config, env vars, or path helpers (`pathlib`).
+- Raw data in `data/raw/`; processed in `data/processed/` (or equivalent).
+- Declare dependencies in `requirements.txt` or `pyproject.toml`; no undeclared imports.
+- Never commit raw microdata or confidential files.
+
+## Academic Standards
+
+- Cite sources for methods, data, and prior work.
+- Note assumptions and limitations explicitly.
+- Ensure reproducibility: clean-run instructions in `replication/README.md`.
+- Include unit tests for estimation and utility functions.
