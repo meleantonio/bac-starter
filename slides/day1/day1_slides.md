@@ -9,6 +9,8 @@ footer: "Antonio Mele | LSE | April 7–10, 2026"
 # Agentic Coding for Economists
 ## Day 1: Setup, GitHub Foundations, Capstone Start
 
+https://agentic-coding-for-economists.vercel.app/i/bac
+
 **Antonio Mele**  
 London School of Economics  
 <span style="font-size:0.72em">Workshop at Università di Milano-Bicocca</span>  

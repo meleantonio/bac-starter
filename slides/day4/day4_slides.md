@@ -8,6 +8,9 @@ footer: "Antonio Mele | Universita di Milano-Bicocca | April 2026"
 
 # Agentic Coding for Economists
 ## Day 4: Integration, Replication, Presentation
+
+https://agentic-coding-for-economists.vercel.app/i/bac
+
 ### Antonio Mele | Università di Milano-Bicocca | April 7–10, 2026
 
 ---

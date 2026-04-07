@@ -7,6 +7,9 @@ footer: "Antonio Mele | Universita di Milano-Bicocca | April 2026"
 ---
 
 # Day 3: Parallel Agent Execution Sprint
+
+https://agentic-coding-for-economists.vercel.app/i/bac
+
 ## Agentic Coding for Economists
 ### Antonio Mele | Università di Milano-Bicocca | April 7–10, 2026
 
