@@ -1,5 +1,7 @@
 # Agenda - Agentic Coding for Economists (Milan)
 
+# questa è una prova
+
 ## Format
 - **Capstone sprint** over 4 days
 - **Demo-first, hands-on delivery** (minimal classical lecture)
