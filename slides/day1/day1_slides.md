@@ -38,6 +38,16 @@ April 7–10, 2026
 
 ---
 
+# Why Economists REALLY Need Agentic Coding
+
+> Hi Antonio, I am just writing basically say that I owe you big time. Since the start of February I started getting into agentic coding seriously after reading your tweets. My coding skills are extremely bad and for years I have been a bit down in my research because I felt so many other economist were more tooled up then me.
+>
+> In under 2 months I have managed to solve a really difficult coding problem (I have 2 computational economists co-authors that couldn't doit) and so I have nearly finished a paper in 2 weeks that has taken me about 9 years to write, nearly written another paper in under week and am burning through tokens and using my uni's supercomputer constantly. In addition I gave a workshop on agentic coding here at Durham. It is quite crazy that this has all happened in under 2 months. My research life has completely changed and am enjoying research for the first time since my PhD.
+
+*— Colleague (shared with permission)*
+
+---
+
 # Workshop Agenda (April 7–10)
 
 **Day 1: Setup, GitHub Foundations, Capstone Start**
