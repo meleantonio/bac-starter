@@ -36,6 +36,37 @@ April 7–10, 2026
 
 ---
 
+# Workshop Agenda (April 7–10)
+
+**Day 1: Setup, GitHub Foundations, Capstone Start**
+1. **Modes & governance:** Agent/Ask/Plan/Debug; `.cursor/rules/`, `AGENTS.md`, `.cursorignore`
+2. **GitHub workflow:** Issue → branch → PR → merge; labeled backlog
+3. **Context control:** `@` mentions, tight vs wide scope
+4. **Capstone:** Start project work (demo + sprint blocks; paced across the week)
+
+**Day 2: Research Pipeline Sprint**
+1. **Spec-driven development:** Research question into a structured pipeline (intent → requirements → design → tasks)
+2. **Context control deep dive:** Tight paths, web search for literature, `@Docs` for APIs
+3. **Literature mapping:** AI-assisted BibTeX generation and review structure
+4. **Verification loops:** Vague tasks → acceptance criteria → fail-fix-rerun
+
+**Day 3: Parallel Agent Execution Sprint**
+1. **MCP:** Model Context Protocol — FRED API, filesystem, Stata/MATLAB/R on your machine, when it adds value
+2. **Subagents:** Specialized agents for recurring roles (reviewer, replicator, bibliographer)
+3. **Agent Skills:** Reusable workflows with `SKILL.md` and skill-creator principles
+4. **Cloud Agents:** Remote execution, branch handoff, review-before-merge
+5. **Swarm orchestration:** Multiple coordinated agents — GitHub issues, labels, parallel vs sequential Cloud Agent runs
+
+**Day 4: Integration, Replication, Presentation**
+1. **Replication protocol:** Clean-run checklist, fail-fix-rerun cycle
+2. **Packaging:** README-first approach, sensible project structure, documented dependencies
+3. **Post-workshop experiments:** Ideas to try individually or with colleagues over the next few weeks
+4. **Wrap-up:** Transferable patterns, next steps
+
+*Day 3 DoD:* full harness, prototype, consistency log, merged PRs. *Day 4:* mini replication package, replication README, 5–7 min talk.
+
+---
+
 # Demo-First Philosophy
 
 **How we teach:**
