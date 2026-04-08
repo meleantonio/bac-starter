@@ -122,3 +122,10 @@ Implement the GitHub Swarm Harness plan (skills, subagents, GitHub templates, pl
 - Implemented `tools/swarm_mcp/` (`log_sync`, `github_state`, `cli`, minimal stdio MCP `server`), plugin package under `plugins/bac-swarm-harness/` with commands and `.cursor-plugin/plugin.json`.
 - Added `pyproject.toml`, `tests/swarm_mcp/`, `docs/swarm-harness-dry-run.md`, and root `.gitignore` (includes `.venv/`).
 - Ran `pytest` in a local `.venv` (6 tests passed).
+
+### User
+Stage `steering/coding-standards.md`, commit, push `cursor/github-swarm-harness`, open draft PR to `main`.
+
+### Assistant
+- Committed `steering/coding-standards.md` with message `docs: add steering coding standards for research spec`.
+- Pushed branch to `origin` and created draft PR: https://github.com/meleantonio/bac-starter/pull/5
