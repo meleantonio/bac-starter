@@ -1,0 +1,21 @@
+---
+description: Python conventions for economics research scripts, estimation code, and result pipelines
+globs: **/*.py
+alwaysApply: false
+---
+
+# Python Economics Research
+
+- Follow a Ruff-friendly, PEP 8 style with 4-space indentation and readable lines.
+- Keep imports at the top of the file.
+- Split code into clear stages: loading, cleaning, modeling, and reporting.
+- Prefer parameterized functions and small result objects over hidden global state.
+- Add type hints for public helpers when they clarify inputs or returned results.
+- Wrap I/O, estimation, or solver failures with error messages that preserve context.
+- Put seeds, tolerances, file locations, and column names in named constants or config blocks.
+- Add focused `pytest` coverage for non-trivial transformations, estimators, and regression helpers.
+
+```python
+def run_specification(data: pd.DataFrame, controls: list[str]) -> RegressionResult:
+    ...
+```
