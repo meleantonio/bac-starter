@@ -1,0 +1,19 @@
+---
+description: Writing conventions for economics notes, result summaries, tables, and markdown documentation
+globs: **/*.md
+alwaysApply: false
+---
+
+# Economic Writing And Tables
+
+- State the question, estimand, or equilibrium object before discussing results.
+- Keep notation, units, sample definitions, and timing conventions consistent throughout the document.
+- Separate factual results from interpretation and policy discussion.
+- Every table or figure note should define the sample, specification, units, and any key transformations.
+- State identification assumptions, equilibrium concepts, or model closure choices explicitly rather than implying them.
+- When evidence is partial or fragile, say so directly.
+
+```markdown
+Good table note:
+"Sample: manufacturing firms, 2005-2019. Outcome in log points. Standard errors clustered by firm. Controls include year and industry fixed effects."
+```

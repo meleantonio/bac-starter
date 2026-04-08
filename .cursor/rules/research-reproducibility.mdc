@@ -1,0 +1,21 @@
+---
+description: Keep economics research work reproducible, traceable, and path-stable
+alwaysApply: true
+---
+
+# Research Reproducibility
+
+- Use relative paths or config-driven project paths, not absolute machine-specific paths.
+- Treat raw inputs and canonical source data as read-only.
+- Record seeds, solver tolerances, sample restrictions, calibration targets, and key assumptions near the code or output that depends on them.
+- Keep exploratory artifacts separate from canonical tables, figures, and saved results.
+- Make every table, figure, or exported result traceable to the script or function that generated it.
+- If a result depends on manual intervention, write the exact sequence in markdown before considering it finished.
+
+```python
+# Bad
+df = pd.read_csv("/Users/name/Desktop/final_data.csv")
+
+# Good
+df = pd.read_csv("data/raw/final_data.csv")
+```

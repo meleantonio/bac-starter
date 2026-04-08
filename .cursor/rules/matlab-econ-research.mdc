@@ -1,0 +1,24 @@
+---
+description: MATLAB conventions for economics research models, solvers, and simulation scripts
+globs: **/*.m
+alwaysApply: false
+---
+
+# MATLAB Economics Research
+
+- Keep each function or script focused on one job: calibration, solution, simulation, or export.
+- Prefer functions with explicit inputs and outputs over scripts that rely on the base workspace.
+- Name parameter structs, grids, and calibration targets clearly.
+- Check convergence and residuals explicitly, and report failure states rather than silently continuing.
+- Separate model solution code from plotting or export code when practical.
+- Preallocate arrays when loop sizes are known.
+- Document frequency conventions, normalization choices, and timing assumptions near the code that uses them.
+
+```matlab
+% Bad
+load params.mat
+solve_model
+
+% Good
+results = solve_model(params, grids, options);
+```
