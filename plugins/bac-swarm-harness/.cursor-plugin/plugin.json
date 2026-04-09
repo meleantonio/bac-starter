@@ -1,0 +1,13 @@
+{
+  "name": "bac-swarm-harness",
+  "version": "0.1.0",
+  "description": "GitHub swarm orchestration — Cursor commands plus MCP helpers for orchestration log and issue DAGs.",
+  "keywords": ["github", "swarm", "orchestration", "research"],
+  "mcpServers": {
+    "bac-swarm-harness": {
+      "command": "python3",
+      "args": ["-m", "tools.swarm_mcp.server"],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}

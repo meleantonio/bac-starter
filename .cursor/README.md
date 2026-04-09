@@ -15,7 +15,9 @@ This repository includes live project-local Cursor assets for economics research
 - `matlab-econ-research`: MATLAB conventions for model and numerical code
 - `economic-writing-and-tables`: writing guidance for notes, tables, and result summaries
 - `hank-modeling`, `game-theory-analysis`, `applied-microeconometrics`, `replication-and-research-hygiene`: project-local research skills
+- `github-swarm-orchestration`, `spec-tasks-to-github`: GitHub issue/branch/PR swarm workflow and spec-to-issue export
 - `hank-model-auditor`, `game-theory-referee`, `microeconometrics-identification-reviewer`, `replication-verifier`: reviewer agents
+- `pr-reviewer`, `artifact-coherence-auditor`, `integration-coordinator`: PR review, artifact coherence, and merge-order coordination for swarm workflows
 - `sdd`, `sdd-orchestrator`: project-local copies of the existing SDD skill and agent
 
 ## Notes
